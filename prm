@@ -1,0 +1,69 @@
+ &PARAMETERS
+
+ caseid ='256x256x192',
+
+ nrestart = 0,
+
+ LES = .true.,
+
+ OCEAN = .true.,
+
+ dosgs		= .true.,
+ dosmagor	= .false.,
+ doscalar	= .false.,
+ docoag         = .true.,
+ dodamping 	= .true.,
+ doupperbound  	= .true.,
+ doradsimple    = .true., 
+ dolongwave	= .true.,
+ doshortwave	= .false.,
+ 
+ dosurface 	= .true.,
+ dolargescale 	= .true.,
+ doradforcing   = .false.,
+ dosfcforcing   = .true.,
+ docoriolis 	= .true.,
+ donudging_uv   = .false.,
+ donudging_tq   = .false.,
+
+ tauls = 10800.0, 
+
+ SFC_FLX_FXD    = .true.,
+ SFC_TAU_FXD    = .true.,
+
+ latitude0 = 39.05,
+ longitude0 = -28.01,
+
+ nrad = 1, 
+
+ ug =  5.0,
+ vg =  -8.0,
+
+ dx = 35.,
+ dy = 35.,
+
+ dt = 	0.5,
+
+day0=199.25,
+! day0=0.0,
+
+nstop 	= 43200,
+!nelapse = 9600,
+nprint  = 120,
+nstat 	= 3600,
+nstatfrq= 120,
+
+ nsave2D	= 1200,
+ nsave2Dstart	= 7200,
+ nsave2Dend	= 43200,
+ save2Dbin      = .true.
+
+ nsave3D	= 1200,
+ nsave3Dstart	= 7200,
+ nsave3Dend	= 43200,
+ save3Dbin      = .true.
+ save3Dsep      = .true.
+
+/ 
+
+
